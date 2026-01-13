@@ -177,15 +177,19 @@ describe("To-do UI - CRUD, filtering, validation, a11y", () => {
 
     render(<App />);
 
-    // Initially enabled because there is a completed task.
-    const clearBtn = await screen.findByRole("button", { name: /clear completed/i });
+    // Wait for initial async load to settle and seeded tasks to render.
+    const list = await screen.findByRole("list", { name: /task list/i });
+    expect(within(list).getByText("Active")).toBeInTheDocument();
+    expect(within(list).getByText("Done")).toBeInTheDocument();
+
+    // Now the button should reflect the loaded counts (enabled because there is a completed task).
+    const clearBtn = screen.getByRole("button", { name: /clear completed/i });
     expect(clearBtn).toBeEnabled();
 
     await user.click(clearBtn);
 
-    // Completed should be removed from UI (filter is "all" by default).
-    const list = await screen.findByRole("list", { name: /task list/i });
-    expect(within(list).getByText("Active")).toBeInTheDocument();
+    // Wait for UI to update after clear.
+    expect(await within(list).findByText("Active")).toBeInTheDocument();
     expect(within(list).queryByText("Done")).not.toBeInTheDocument();
   });
 });

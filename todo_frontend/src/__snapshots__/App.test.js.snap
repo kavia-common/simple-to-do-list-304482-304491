@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App - smoke/regression snapshot-ish: container renders stable outer shell 1`] = `
+<div
+  class="appShell"
+>
+  <header
+    class="topbar"
+  >
+    <div
+      class="topbarInner"
+    >
+      <div
+        class="brand"
+      >
+        <div
+          aria-hidden="true"
+          class="brandMark"
+        />
+        <div
+          class="brandText"
+        >
+          <h1
+            class="title"
+          >
+            To‑Do
+          </h1>
+          <p
+            class="subtitle"
+          >
+            Clean, fast tasks with graceful persistence.
+          </p>
+        </div>
+      </div>
+      <div
+        aria-label="Persistence and stats"
+        class="statusPills"
+      >
+        <span
+          class="pill pillApi"
+        >
+          Backend
+        </span>
+        <span
+          class="pill pillCount"
+        >
+          0
+           active
+        </span>
+      </div>
+    </div>
+  </header>
+  <main
+    class="container"
+  >
+    <section
+      class="card"
+    >
+      <form
+        class="addRow"
+      >
+        <label
+          class="srOnly"
+          for="newTask"
+        >
+          Add a task
+        </label>
+        <input
+          autocomplete="off"
+          class="textInput"
+          id="newTask"
+          inputmode="text"
+          placeholder="Add a task…"
+          value=""
+        />
+        <button
+          class="primaryButton"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+      <div
+        class="toolbar"
+      >
+        <div
+          aria-label="Task filters"
+          class="filters"
+          role="tablist"
+        >
+          <button
+            aria-selected="true"
+            class="chip chipActive"
+            role="tab"
+            type="button"
+          >
+            All 
+            <span
+              class="chipCount"
+            >
+              0
+            </span>
+          </button>
+          <button
+            aria-selected="false"
+            class="chip "
+            role="tab"
+            type="button"
+          >
+            Active 
+            <span
+              class="chipCount"
+            >
+              0
+            </span>
+          </button>
+          <button
+            aria-selected="false"
+            class="chip "
+            role="tab"
+            type="button"
+          >
+            Completed 
+            <span
+              class="chipCount"
+            >
+              0
+            </span>
+          </button>
+        </div>
+        <button
+          class="ghostButton"
+          disabled=""
+          title="Remove all completed tasks"
+          type="button"
+        >
+          Clear completed
+        </button>
+      </div>
+      <div
+        aria-live="polite"
+        class="emptyState"
+      >
+        Loading tasks…
+      </div>
+    </section>
+    <footer
+      class="footer"
+    >
+      <span>
+        Synced with backend API.
+      </span>
+    </footer>
+  </main>
+</div>
+`;

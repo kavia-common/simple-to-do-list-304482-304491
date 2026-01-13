@@ -49,8 +49,9 @@ describe("Persistence behavior (backend API vs localStorage fallback)", () => {
     // Task appears
     expect(await screen.findByText("From API")).toBeInTheDocument();
 
-    // Mode pill indicates Backend
-    expect(screen.getByText(/backend/i)).toBeInTheDocument();
+    // Mode pill indicates Backend (scope to the status pill region to avoid matching footer text)
+    const statusRegion = screen.getByLabelText(/persistence and stats/i);
+    expect(within(statusRegion).getByText(/^Backend$/i)).toBeInTheDocument();
 
     // Also mirrored to localStorage
     const stored = JSON.parse(window.localStorage.getItem("kavia.todo.tasks.v1"));
