@@ -1,0 +1,4809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`To-do edge cases (validation, editing keys/cancel, rapid toggles, filters, persistence fallbacks, a11y, large lists) rendering stability: handles large task list (100 items) and list remains accessible 1`] = `
+<ul
+  aria-label="Task list"
+  class="taskList"
+>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 1"
+      >
+        Task 1
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 2"
+      >
+        Task 2
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 3"
+      >
+        Task 3
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 4"
+      >
+        Task 4
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 5"
+      >
+        Task 5
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 6"
+      >
+        Task 6
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 7"
+      >
+        Task 7
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 8"
+      >
+        Task 8
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 9"
+      >
+        Task 9
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 10"
+      >
+        Task 10
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 11"
+      >
+        Task 11
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 12"
+      >
+        Task 12
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 13"
+      >
+        Task 13
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 14"
+      >
+        Task 14
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 15"
+      >
+        Task 15
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 16"
+      >
+        Task 16
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 17"
+      >
+        Task 17
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 18"
+      >
+        Task 18
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 19"
+      >
+        Task 19
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 20"
+      >
+        Task 20
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 21"
+      >
+        Task 21
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 22"
+      >
+        Task 22
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 23"
+      >
+        Task 23
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 24"
+      >
+        Task 24
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 25"
+      >
+        Task 25
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 26"
+      >
+        Task 26
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 27"
+      >
+        Task 27
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 28"
+      >
+        Task 28
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 29"
+      >
+        Task 29
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 30"
+      >
+        Task 30
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 31"
+      >
+        Task 31
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 32"
+      >
+        Task 32
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 33"
+      >
+        Task 33
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 34"
+      >
+        Task 34
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 35"
+      >
+        Task 35
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 36"
+      >
+        Task 36
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 37"
+      >
+        Task 37
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 38"
+      >
+        Task 38
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 39"
+      >
+        Task 39
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 40"
+      >
+        Task 40
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 41"
+      >
+        Task 41
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 42"
+      >
+        Task 42
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 43"
+      >
+        Task 43
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 44"
+      >
+        Task 44
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 45"
+      >
+        Task 45
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 46"
+      >
+        Task 46
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 47"
+      >
+        Task 47
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 48"
+      >
+        Task 48
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 49"
+      >
+        Task 49
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 50"
+      >
+        Task 50
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 51"
+      >
+        Task 51
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 52"
+      >
+        Task 52
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 53"
+      >
+        Task 53
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 54"
+      >
+        Task 54
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 55"
+      >
+        Task 55
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 56"
+      >
+        Task 56
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 57"
+      >
+        Task 57
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 58"
+      >
+        Task 58
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 59"
+      >
+        Task 59
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 60"
+      >
+        Task 60
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 61"
+      >
+        Task 61
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 62"
+      >
+        Task 62
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 63"
+      >
+        Task 63
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 64"
+      >
+        Task 64
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 65"
+      >
+        Task 65
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 66"
+      >
+        Task 66
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 67"
+      >
+        Task 67
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 68"
+      >
+        Task 68
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 69"
+      >
+        Task 69
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 70"
+      >
+        Task 70
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 71"
+      >
+        Task 71
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 72"
+      >
+        Task 72
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 73"
+      >
+        Task 73
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 74"
+      >
+        Task 74
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 75"
+      >
+        Task 75
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 76"
+      >
+        Task 76
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 77"
+      >
+        Task 77
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 78"
+      >
+        Task 78
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 79"
+      >
+        Task 79
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 80"
+      >
+        Task 80
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 81"
+      >
+        Task 81
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 82"
+      >
+        Task 82
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 83"
+      >
+        Task 83
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 84"
+      >
+        Task 84
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 85"
+      >
+        Task 85
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 86"
+      >
+        Task 86
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 87"
+      >
+        Task 87
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 88"
+      >
+        Task 88
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 89"
+      >
+        Task 89
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 90"
+      >
+        Task 90
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 91"
+      >
+        Task 91
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 92"
+      >
+        Task 92
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 93"
+      >
+        Task 93
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 94"
+      >
+        Task 94
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 95"
+      >
+        Task 95
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 96"
+      >
+        Task 96
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 97"
+      >
+        Task 97
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 98"
+      >
+        Task 98
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem "
+  >
+    <button
+      aria-label="Mark as completed"
+      class="checkButton "
+      title="Mark as completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 99"
+      >
+        Task 99
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+  <li
+    class="taskItem taskDone"
+  >
+    <button
+      aria-label="Mark as not completed"
+      class="checkButton checkOn"
+      title="Mark as not completed"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="checkIcon"
+      >
+        ✓
+      </span>
+    </button>
+    <div
+      class="taskContent"
+    >
+      <div
+        class="taskTitle"
+        title="Task 100"
+      >
+        Task 100
+      </div>
+    </div>
+    <div
+      aria-label="Task actions"
+      class="taskActions"
+    >
+      <button
+        aria-label="Edit"
+        class="iconButton"
+        title="Edit"
+        type="button"
+      >
+        ✎
+      </button>
+      <button
+        aria-label="Delete"
+        class="iconButton iconDanger"
+        title="Delete"
+        type="button"
+      >
+        🗑
+      </button>
+    </div>
+  </li>
+</ul>
+`;
